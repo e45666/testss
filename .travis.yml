@@ -1,7 +1,10 @@
 os: osx
 osx_image: xcode14.1
-language: shell
+language: node_js
+node_js: 16
 
-install: skip
+install:
+  - npm i -g yarn
+  - yarn create react-app test
 
 script: true
