@@ -1,0 +1,5 @@
+language: shell
+
+install: skip
+
+script: true
