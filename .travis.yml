@@ -1,3 +1,4 @@
+osx_image: xcode14.1
 language: shell
 
 install: skip
